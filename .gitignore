@@ -1,0 +1,4 @@
+.cabal-sandbox/
+cabal-cache/
+dist-newstyle/
+cabal.project.local

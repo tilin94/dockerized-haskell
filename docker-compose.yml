@@ -1,6 +1,6 @@
 services:
   new-project:
-    image: haskell:9.10.1-bullseye
+    image: haskell:9.8-slim
     volumes:
       - .:/app                     # Mount the project directory
       - ./ghc-cache:/root/.ghc     # Cache GHC dependencies
